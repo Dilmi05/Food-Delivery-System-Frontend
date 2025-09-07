@@ -13,9 +13,9 @@
 }
 
 .explore-menu-text{
-    max-width: 60%;
+    max-width: 100%;
     columns: #808080;
-}
+ }
 
 .explore-menu-list{
     display:flex;
@@ -55,4 +55,12 @@
 .explore-menu-list-item img.active{
     border: 4px solid #FF5733;
     padding: 2px;
+}
+
+@media(max-width:1050px){
+     
+    .explore-menu-text{
+        font-size: 14px;
+        max-width: 100%;
+    }
 }

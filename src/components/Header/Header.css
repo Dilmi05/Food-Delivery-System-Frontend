@@ -38,3 +38,30 @@
     cursor: pointer;
     font-size: max(1.2vw,16px);
     font-weight: 500}
+
+
+    @media(max-width:1050px){
+        .header{
+            height: 45vw;
+         }
+        .header-contents{
+            max-width: 45%;
+             
+        }
+         
+    }
+
+     @media(max-width:750px){
+         
+        .header-contents{
+            max-width: 55%;
+            
+        }
+         
+        .header-contents p{
+            display: none;
+         }
+         .header-contents button{
+            padding: 2vw 4vw;
+          }
+    }
